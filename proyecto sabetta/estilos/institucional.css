@@ -1,6 +1,45 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+p{
+    width: 50%;
+    font-style: italic;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto1{
+    text-align: left;
+    font-size: x-large;
+}
+
+#texto2{
+    text-align: right;
+    font-size: x-large;
+}
+
+#texto3{
+    text-align: left;
+    font-size: x-large;
 }
 
 header {
@@ -36,18 +75,18 @@ body {
 }
 
 h2 {
-
     width: 25%;
     height: 35px;
     padding: 15px;
+    overflow: hidden;
 }
 
 main {
     width: 100%;
-    height: 75px;
+    height: max-content;
     font-size: large;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
 }
